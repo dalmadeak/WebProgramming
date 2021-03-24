@@ -1,0 +1,172 @@
+body {
+    background-image: url("background_front.png") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#jatekkepernyo {
+    display: flex;
+    height: 100vh;
+    margin: -8px;
+}
+
+#jatekkepernyo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+#baloldal {
+    background-color: #635757;
+    width: 20%;
+    flex: 20%;
+    text-align: center;
+}
+
+#jobboldal {
+    background-color: #f7b76e;
+    width: 80%;
+    flex: 80%;
+}
+
+#kartyaTabla img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#kartyaTabla{
+    margin: 20px auto 20px auto;
+    vertical-align: center;
+}
+
+#kartyaTabla td{
+    padding: 0px;
+    
+}
+
+#baloldal ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#baloldal .clickedButton{
+    background-color: rgb(212, 164, 152);
+    text-decoration: bold;
+    font-size: 20px;
+}
+
+#baloldal .notClickedButton{
+    background-color: rgb(212, 201, 152);
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+h1{
+    font-size: 10pc;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+
+    margin-left: -10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    background-color: rgb(212, 201, 152);
+    opacity: 0.6;
+}
+
+.gomb{
+    background-color: rgb(212, 201, 152);
+    font-size: 30px;
+}
+
+.gomb:hover{
+    text-shadow: 1px 1px 2px rgb(155, 31, 31), 0 0 25px rgb(255, 57, 57), 0 0 5px rgb(255, 167, 3);
+    background-color: rgb(212, 184, 152);
+}
+
+#gombok{
+    text-align: center;
+}
+
+#egyebBeallit{
+    display: none;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #da8627;
+    text-align: center;
+}
+
+#egyebBeallit label{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e78412;
+    text-shadow: 3px 3px #362d2d;
+}
+
+#szamBeallit, #modBeallit{
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #e78412;
+    text-shadow: 3px 3px #362d2d;
+}
+
+.nevLabel {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #e78412;
+    text-shadow: 3px 3px #362d2d;
+    white-space: pre;
+}
+
+#szamBeallit input {
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.gomb2 {
+    background-color: rgb(212, 201, 152);
+    font-size: 15px;
+}
+
+.gomb2:hover{
+    text-shadow: 1px 1px 2px rgb(155, 31, 31), 0 0 25px rgb(255, 57, 57), 0 0 5px rgb(255, 167, 3);
+    background-color: rgb(212, 184, 152);
+}
+
+#hibaDiv{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+}
+
+.foundSet{
+    border: 10px solid #e95353;
+}

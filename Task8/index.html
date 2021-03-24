@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SET</title>
+</head>
+<body>
+    <div id="kezdokepernyo">
+        <h1 id="set">SET</h1>
+        <div id="gombok">
+            <button class="gomb" id="szabaly">Játékszabályok</button><br><br>
+            <button class="gomb" id="szam">Játékosok száma</button><br><br>
+            <button class="gomb" id="mod">Játékmód</button><br><br>
+            <button class="gomb" id="egyeb">Egyéb beállítások</button><br><br>
+            <button class="gomb" id="start">Start</button>
+        </div>
+        <div id="szamBeallit">
+            <label>Add meg a játékosok számát!</label> <br>
+            <input type="number" id="szamInput" min="1" max="10" value="1"></div><br><br>
+        </div>
+        <div id="modBeallit">
+            <label>Add meg, melyik módban szeretnél játszani!</label><br>
+            <button class="gomb" id="gyakMod">Gyakorló</button>
+            <button class="gomb" id="versenyMod">Verseny</button>
+        </div>
+        <div id="egyebBeallit" style="width: 35%; margin-left: auto; margin-right: auto;">
+                <label>Add meg, melyik opciókkal szeretnél játszani!</label><br>
+                <input type="checkbox" name="egyeb" value="keres">SET mutatás<br>
+                <input type="checkbox" name="egyeb" value="talal">SET keresés<br>
+                <input type="checkbox" name="egyeb" value="kiegeszit">Kiegészítés automatikus<br>
+                <br><button id="sub" class="gomb">Beállít</button>
+        </div>
+        <div id="visszaOk" style="text-align:center;display:none;">
+            <button class="gomb" id="vissza">Vissza</button>
+            <button class="gomb" id="ok">Ok</button>
+        </div>
+    </div>
+    <div id="jatekkepernyo">
+        <div id="baloldal" class="column">
+            <label> Játékosok </label>
+        </div>
+        <div id="jobboldal" class="column">
+            
+        </div>
+    </div>
+</body>
+<script src="biztonsag2.js"></script>
+</html>
