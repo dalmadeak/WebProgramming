@@ -1,0 +1,18 @@
+{
+    "admin@nemkovid.hu": {
+        "username": "Admin",
+        "taj": "000000000",
+        "address": "admin",
+        "email": "admin@nemkovid.hu",
+        "password": "$2y$10$GC\/ZOTx9aN2D7ei2QOqkVev\/lMI2Zs2PANWKI0.slBK1Vr1pC29HW",
+        "foglalt": true
+    },
+    "dalma@dalma.com": {
+        "username": "Dalma",
+        "taj": "111111111",
+        "address": "Vid\u00e9k",
+        "email": "dalma@dalma.com",
+        "password": "$2y$10$t9iBYdVCT3r6i8n1E46c2.TDorkuGBKsornubgkNrYCjcODs9j3RO",
+        "foglalt": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0": {
+        "id": 0,
+        "nap": "2021.01.15.",
+        "ora": "15:00",
+        "hely": 5,
+        "foglalta": [],
+        "hozzaadta": "admin@nemkovid.hu"
+    },
+    "1": {
+        "id": 1,
+        "nap": "2021.01.26.",
+        "ora": "9:00",
+        "hely": 10,
+        "foglalta": [],
+        "hozzaadta": "admin@nemkovid.hu"
+    }
+}
