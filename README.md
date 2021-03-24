@@ -1,3 +1,3 @@
 # WebProgramming
-Reference work for job application
-Mainly HTML, CSS, JS and PHP
+Reference work for job application,
+mainly HTML, CSS, JS and PHP
